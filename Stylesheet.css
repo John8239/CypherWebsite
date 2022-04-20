@@ -1,0 +1,73 @@
+body
+{
+    background-color: turquoise;
+}
+
+h1
+{
+    color: darkcyan;
+    text-align: center;
+}
+
+h2
+{
+    color: darkcyan;
+    text-align: center;
+}
+
+h3
+{
+    color: darkcyan;
+    text-align: center;
+}
+
+#Header
+{
+    margin: auto;
+    width: 820px;
+    border-style: solid;
+    border-color: darkcyan;
+    background-color: bisque;
+}
+
+#Left
+{
+    float: left;
+    width: 20%;
+    height: 710px;
+    border-style: solid;
+    border-color: darkcyan;
+    background-color: bisque;
+    text-align: center;
+}
+
+#Right
+{
+    float: right;
+    width: 20%;
+    height: 710px;
+    border-style: solid;
+    border-color: darkcyan;
+    background-color: bisque;
+    text-align: center;
+}
+
+#words
+{
+    text-align: center;
+}
+
+.textFieldDiv
+{
+    text-align: center;
+}
+
+#convertedWords
+{
+    margin: auto;
+    height: 222px;
+    width: 820px;
+    border-style: solid;
+    border-color: darkcyan;
+    background-color: bisque;
+}

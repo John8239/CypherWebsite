@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cypher Creator</title>
+    <link rel= 'Stylesheet' href='Stylesheet.css'>
+    <script src='encrypter.js'></script>
+</head>
+<body>
+    <div id="Left">
+        I know this is tacky CSS but I just wanted to put this up now
+    </div>
+    <div id="Right">
+        I'll make the site look better later =)
+    </div>
+    <div id="Center">
+        <div id="Header">
+            <h1>Welcome to the Cypher Converter!</h1>
+            <h2>Type something below and choose a way to convert your text!</h2>
+            <br>
+        </div>
+        <div class="textFieldDiv">
+            <div id="div1">
+                <h3>Enter Text Here:</h3>
+                <label for=words></label><textarea id=words rows="12" cols="100"></textarea>
+            </div>
+            <label for=offsetNum></label><textarea id=offsetNum rows="1" cols="10"></textarea>
+            <br>
+            <input type=button name="submitInverse" value="Invert"
+                   onclick="stringToArrayInv(document.getElementById('words').value)">
+            <input type=button name="submitOffset" value="Offset"
+                   onclick="stringToArrayOff(document.getElementById('words').value,
+                   document.getElementById('offsetNum').value)">
+            <input type="reset" value="Reset" onclick="reset()">
+            <br><br><br>
+            <div id=convertedWords rows="12" cols="100">
+                <p class="convWordsP"></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
